@@ -98,10 +98,12 @@
 .demo-container-1 {
     display: flex;
     flex-direction: row;
+    margin-left: 30px;
+    margin-right: 70px;
 }
 
 .prototype-1 {
-    width: 350px;
+    width: 320px;
     length: 700px;
     margin-left: 20px;
 }
@@ -116,11 +118,13 @@
 .demo-container-2 {
     display: flex;
     flex-direction: row;
+    margin-left: 30px;
+    margin-right: 70px;
 }
 
 .prototype-2 {
     
-    width: 390px;
+    width: 360px;
     length: 700px;
     margin-left: 10px;
     margin-right: 10px;
@@ -137,10 +141,12 @@
 .demo-container-3 {
     display: flex;
     flex-direction: row;
+    margin-left: 30px;
+    margin-right: 70px;
 }
 
 .prototype-3 {
-    width: 415px;
+    width: 375px;
     length: 700px;
     margin-left: 10px;
 }
@@ -155,32 +161,36 @@
 
 .third-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
-    height: 600px;
+    height: 700px;
     margin-left: -7px;
     font-size: 0.85em;
     letter-spacing: 0.5px;
     background-color: #f6f6f6;
     text-align: center;
+    justify-content: space-between;
 }
 
 .interested-message {
     display: flex;
     margin-left: 50px;
-    margin-top: 40px;
+    margin-top: 65px;
 }
 
 .inquiry-container {
     display: flex;
+    flex-direction: column;
     margin-left: 68px;
+    justify-content: space-between;
 }
 
 .inquiry-buttons-container {
     display: flex;
     justify-content: space-between;
     width: 500px;
-    margin-top: 80px;
+    margin-top: 60px;
+    margin-left: 73px;
 }
 
 .inquiry-buttons {
@@ -189,9 +199,146 @@
     border: 1px solid #1F2B37;
     font-size: 20px;
     color: #1F2B37;
-    background-color:
+}
+
+.inquiry-buttons:hover {
+    outline: none;
+    background-color: #1F2B37;
+    color: #f6f6f6;
+    border-color: #f6f6f6;
+}
+
+.inquiry-buttons:focus {
+    outline: none;
 }
 
 .inquiry-forms-container {
     border: 1px solid #1F2B37;
+    width: 400px;
+    height: 550px;
+    margin-right: 150px;
+    margin-top: 70px;
+    font-size: 15px;
 }
+
+.investor-form {
+    display: flex;
+    width: 550px;
+    flex-direction: column;
+}
+
+input {
+    height: 30px;
+    width: 200px;
+}
+
+input:hover {
+    outline: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+.form-div {
+    display: flex;
+    width: 400px;
+    flex-direction: row;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+
+.form-div-horizon {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    width: 335px;
+}
+
+.form-div-submit {
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+label {
+    width: 100px;
+    display: flex;
+    justify-content: start;
+}
+
+.myass {
+    width: 300px;
+    margin-left: 8px;
+}
+
+.submit-button {
+    width: 90px;
+    height: 25px;
+    border: 1px solid #1F2B37;
+    font-size: 15px;
+    color: #1F2B37;
+    margin-top: 35px;
+    margin-right: 40px;
+}
+
+.submit-button:hover {
+    outline: none;
+    background-color: #1F2B37;
+    color: #f6f6f6;
+    border-color: #f6f6f6;
+}
+
+.submit-button:focus {
+    outline: none;
+}
+
+
+textarea:hover {
+    outline: none;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.social-media-container {
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin-right: 30px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }  
