@@ -1,0 +1,87 @@
+ body {
+    display: flex;
+    width: 100%;
+    background-color: #1F2B37;
+    flex-direction: column;
+}
+
+.header-container {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: #1F2B37;
+    margin-left: -8px;
+    margin-top: -8px;
+    border-bottom: 1px solid #f6f6f6;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo-container {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    width: 200px;
+    height: 80px;
+    margin-left: 10px;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    align-items: center;
+    font-size: .85em;
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-weight: 400;
+    font-family: arial !important;
+    color: #f6f6f6;
+    justify-content: space-evenly;
+}
+
+.actual-body-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: "Lucida Sans Unicode","Lucida Grande","sans-serif";
+    font-size: 1.8em;
+    line-height: 1.2em;
+    letter-spacing: 1px;
+    /* margin-top: 100px;
+    background-color: #f6f6f6; */
+    color: rgba(22,22,29,.8);
+    /* color: #f6f6f6; */
+}
+
+.slogan {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #f6f6f6;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+
+.first-container {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    text-align: center;
+    margin-left: -7px;
+    margin-top: 80px;
+    background-color: #f6f6f6;
+    font-size: 0.9em;
+    letter-spacing: 0.5px;
+}
+
+.text-center {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 50px;
+}
