@@ -120,8 +120,10 @@
 }
 
 .prototype-1 {
+    /* width: 100%;
+    height: 100%; */
     width: 320px;
-    length: 700px;
+    flex-shrink: 3;
     margin-left: 20px;
 }
 
@@ -143,6 +145,7 @@
     
     width: 360px;
     length: 700px;
+    flex-shrink: 3;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -165,11 +168,11 @@
 .prototype-3 {
     width: 375px;
     length: 700px;
+    flex-shrink: 3;
     margin-left: 10px;
 }
 
 .description-3 {
-   
     align-items: flex-start;
     margin-top: 40px;
     margin-left: 15px;
@@ -180,9 +183,9 @@
     display: flex;
     flex-direction: row;
     flex-grow: 3;
+    flex-shrink: 3;
     width: 100%;
-    
-    margin-left: -7px;
+    margin-left: 0px;
     font-size: 0.85em;
     letter-spacing: 0.5px;
     background-color: #f6f6f6;
@@ -194,7 +197,7 @@
     display: flex;
     margin-bottom: 90px;
     height: 100px;
-    width: 900px;
+    width: 100%;
     justify-content: center;
 }
 
@@ -207,16 +210,18 @@
 .inquiry-container {
     display: flex;
     flex-direction: column;
-    margin-left: 68px;
+    margin-left: 0px;
     justify-content: space-between;
 }
 
 .inquiry-buttons-container {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    width: 500px;
-    margin-top: 60px;
-    margin-left: 215px;
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 0px;
+    align-items: center;
 }
 
 .inquiry-buttons {
@@ -412,7 +417,27 @@ footer {
     background-color: #315d9d;
 }
 
-@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 1200px) {
+    .inquiry-buttons-container {
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 2;
+        justify-content: space-between;
+        width: 90%;
+        margin-top: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .inquiry-buttons {
+        margin-bottom: 30px;
+    }
+
+
+}
+
+@media only screen and (max-width: 800px) {
     .slogan {
         display: flex;
         flex-direction: column;
@@ -470,8 +495,8 @@ footer {
     }
 
     .prototype-1 {
-        width: 74%;
-        height: 74%;
+        /* width: 74%;
+        height: 74%; */
         margin-left: 0px;
         margin-right: 0px;
         margin-top: 0px;
@@ -503,8 +528,8 @@ footer {
     }
 
     .prototype-2 {
-        width: 80%;
-        height: 80%;
+        /* width: 80%;
+        height: 80%; */
         margin-left: 4px;
         margin-right: 0px;
         margin-top: 0px;
@@ -529,8 +554,8 @@ footer {
     }
 
     .prototype-3 {
-        width: 87%;
-        height: 87%;
+        /* width: 87%;
+        height: 87%; */
         margin-left: 12px;
         margin-right: 0px;
         margin-top: 0px;
@@ -569,6 +594,7 @@ footer {
         flex-grow: 3;
         margin-top: 0px;
         margin-left: 0px;
+        width: 50%;
         justify-content: center;
         align-items: center;
     }
@@ -603,6 +629,7 @@ footer {
         border: 1px solid #315d9d;
         width: 100%;
         flex-grow: 3;
+        flex-shrink: 3;
         margin-right: 0px;
         margin-top: 15px;
         padding-bottom: 40px;
@@ -612,6 +639,8 @@ footer {
 
     .inquiry-buttons-container {
         display: flex;
+        flex-shrink: 2;
+        flex-direction: row;
         justify-content: space-between;
         width: 90%;
         margin-top: 10px;
