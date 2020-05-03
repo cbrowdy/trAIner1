@@ -210,7 +210,11 @@
 
 .inquiry-buttons:focus {
     outline: none;
+    background-color: #1F2B37;
+    color: #f6f6f6;
+    border-color: #f6f6f6;
 }
+
 
 .inquiry-forms-container {
     border: 1px solid #1F2B37;
@@ -222,6 +226,18 @@
 }
 
 .investor-form {
+    display: flex;
+    width: 550px;
+    flex-direction: column;
+}
+
+.doctor-form {
+    display: flex;
+    width: 550px;
+    flex-direction: column;
+}
+
+.patient-form {
     display: flex;
     width: 550px;
     flex-direction: column;
