@@ -24,7 +24,7 @@ $(document).ready(function() {
         investor.style.color="#191f53";
         investor.style.borderColor="#191f53";
 
-        message.innerHTML = "Interested in signing up for our beta?";
+        message.innerHTML = "Interested in signing up for our beta? Fill out the form here.";
         document.getElementById("patient-form").style.display="flex";
         document.getElementById("doctor-form").style.display="none";
         document.getElementById("investor-form").style.display="none";
@@ -48,7 +48,7 @@ $(document).ready(function() {
         investor.style.color="#315d9d";
         investor.style.borderColor="#315d9d";
 
-        message.innerHTML = "Interested in joining our platform as a primary care doctor?";
+        message.innerHTML = "Interested in joining our platform as a primary care doctor? Sign up here.";
         document.getElementById("patient-form").style.display="none";
         document.getElementById("investor-form").style.display="none";
         document.getElementById("doctor-form").style.display="flex";
@@ -72,7 +72,7 @@ $(document).ready(function() {
         patient.style.color="#315d9d";
         patient.style.borderColor="#315d9d";
         
-        message.innerHTML = "Interested in learning more about our future milestones?";
+        message.innerHTML = "Interested in learning more about our future milestones? Schedule a meeting with us";
         document.getElementById("investor-form").style.display="flex";
         document.getElementById("patient-form").style.display="none";
         document.getElementById("doctor-form").style.display="none";

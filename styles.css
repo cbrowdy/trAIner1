@@ -175,6 +175,14 @@
     justify-content: space-between;
 }
 
+.interested-message-container {
+    display: flex;
+    margin-bottom: 90px;
+    height: 100px;
+    width: 900px;
+    justify-content: center;
+}
+
 .interested-message {
     display: flex;
     margin-left: 50px;
@@ -193,13 +201,13 @@
     justify-content: space-between;
     width: 500px;
     margin-top: 60px;
-    margin-left: 73px;
+    margin-left: 215px;
 }
 
 .inquiry-buttons {
     width: 150px;
     height: 50px;
-    border: 1px solid #315d9d;
+    border: 1px solid #1F2B37;
     font-size: 20px;
     color: #1F2B37;
     background-color: #f6f6f6;
