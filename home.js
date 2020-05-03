@@ -11,7 +11,7 @@ $(document).ready(function() {
         let message = document.getElementById("interest-message");
         let doctor = document.getElementById("doctor-button");
 
-        patient.style.backgroundColor="#191f53";
+        patient.style.backgroundColor="#315d9d";
         patient.style.outline="none";
         patient.style.color="#f6f6f6";
         patient.style.borderColor="#f6f6f6";
