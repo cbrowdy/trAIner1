@@ -1,18 +1,18 @@
  body {
     width: 100%;
-    background-color: #1F2B37;
     display: flex;
     flex-direction: column;
+    background-color: #315d9d;
 }
 
 .header-container {
     display: flex;
     width: 100%;
-    height: 80px;
+    height: 180px;
     background-color: #1F2B37;
     margin-left: -8px;
     margin-top: -8px;
-    /* border-bottom: 1px solid #f6f6f6; */
+    background-image: url("http://ec2-18-221-213-107.us-east-2.compute.amazonaws.com/~owenzhang76/personal/caralyst/assets/skyFour.png");
     flex-direction: row;
     justify-content: space-between;
 }
@@ -51,6 +51,7 @@
     line-height: 1.2em;
     color: rgba(22,22,29,.8);
     flex-flow: column nowrap;
+    background-image: linear-gradient(#191f53, #325f9f);;
 }
 
 .slogan {
@@ -72,7 +73,6 @@
     height: 550px;
     text-align: center;
     margin-left: -7px;
-    margin-top: 70px;
     background-color: #f6f6f6;
     font-size: 0.9em;
     letter-spacing: 0.5px;
@@ -89,10 +89,13 @@
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
-    margin-left: -7px;
+    margin-left: -9px;
     font-size: 0.85em;
     letter-spacing: 0.5px;
     color: #f6f6f6;
+    /* background-color: #191f53; */
+    background-image: linear-gradient(#191f53, #325f9f);
+    /* background-image: url("http://ec2-18-221-213-107.us-east-2.compute.amazonaws.com/~owenzhang76/personal/caralyst/assets/skyFour.png"); */
 }
 
 .demo-container-1 {
@@ -196,28 +199,28 @@
 .inquiry-buttons {
     width: 150px;
     height: 50px;
-    border: 1px solid #1F2B37;
+    border: 1px solid #315d9d;
     font-size: 20px;
     color: #1F2B37;
+    background-color: #f6f6f6;
 }
 
 .inquiry-buttons:hover {
-    outline: none;
-    background-color: #1F2B37;
-    color: #f6f6f6;
-    border-color: #f6f6f6;
+    outline: none !important;
+    background-color: #315d9d !important;
+    color: #f6f6f6 !important;
+    border-color: #f6f6f6 !important;
 }
 
 .inquiry-buttons:focus {
     outline: none;
-    background-color: #1F2B37;
+    background-color: #191f53;
     color: #f6f6f6;
     border-color: #f6f6f6;
 }
 
-
 .inquiry-forms-container {
-    border: 1px solid #1F2B37;
+    border: 1px solid #315d9d;
     width: 400px;
     height: 550px;
     margin-right: 150px;
@@ -312,7 +315,6 @@ label {
     outline: none;
 }
 
-
 textarea:hover {
     outline: none;
 }
@@ -322,22 +324,24 @@ textarea:focus {
 }
 
 .social-media-container {
-    height: 200px;
+    height: 300px;
     display: flex;
     flex-direction: row;
     width: 100%;
     justify-content: center;
-    margin-top: 30px;
+    padding-top: 30px;
+    /* background-color: #191f53; */
 }
 
 .fa {
-    padding: 10px;
+    padding: 15px;
     font-size: 30px;
-    width: 30px;
+    width: 19px;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
     margin-right: 30px;
+    margin-top: 30px;
   }
   
   .fa:hover {
@@ -355,6 +359,31 @@ textarea:focus {
   }
 
   .fa-instagram {
-    background: #125688;
+    background: linear-gradient(red, orange);
     color: white;
   }  
+
+a:link {
+    color: #f6f6f6;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #f6f6f6;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f6f6f6;
+    text-decoration: none;
+}
+
+a:active {
+    color: #f6f6f6;
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    background-color: #315d9d;
+}
