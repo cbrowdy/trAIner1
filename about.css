@@ -9,6 +9,10 @@ body {
     line-height: 1.3em;
 }
 
+.cortex-image {
+    display: none;
+}
+
 .header-container {
     display: flex;
     flex-grow: 4;
@@ -333,9 +337,28 @@ img {
       height: 100px;
   }
 
-  @media only screen and (max-width: 700px) {
-      .team-container {
-          display: flex;
-          flex-direction: column;
-      }
-  }
+@media only screen and (max-width: 700px) {
+    .team-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .column {
+        margin-bottom: 20px;
+    }
+
+    .parallax {
+        background-image: url("http://ec2-18-221-213-107.us-east-2.compute.amazonaws.com/~owenzhang76/personal/caralyst/assets/cortex5.png");
+        min-height: 0px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .cortex-image {
+        display: block;
+        width: 100%;
+        border-radius: 0px;
+    }
+}
