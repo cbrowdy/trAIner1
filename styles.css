@@ -1,4 +1,4 @@
- body {
+body {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -193,6 +193,17 @@
     justify-content: space-between;
 }
 
+.options-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 3;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 100%;
+    
+    
+} 
+
 .interested-message-container {
     display: flex;
     margin-bottom: 90px;
@@ -202,8 +213,7 @@
 }
 
 .interested-message {
-    display: flex;
-    margin-left: 50px;
+    margin-left: 0px;
     margin-top: 65px;
 }
 
@@ -217,7 +227,7 @@
 .inquiry-buttons-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
     margin-top: 30px;
     margin-left: 0px;
@@ -248,7 +258,7 @@
 }
 
 .inquiry-forms-container {
-    border: 1px solid #315d9d;
+    border: 1px solid #191f53;
     width: 400px;
     height: 550px;
     margin-right: 150px;
@@ -434,6 +444,14 @@ footer {
         margin-bottom: 30px;
     }
 
+    .prototype-1 {
+        display: flex;
+        flex-shrink: 3;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+       
+    }
 
 }
 
@@ -495,8 +513,9 @@ footer {
     }
 
     .prototype-1 {
-        /* width: 74%;
-        height: 74%; */
+        display: flex;
+        width: 74%;
+        height: 74%;
         margin-left: 0px;
         margin-right: 0px;
         margin-top: 0px;
@@ -528,8 +547,8 @@ footer {
     }
 
     .prototype-2 {
-        /* width: 80%;
-        height: 80%; */
+        width: 84%;
+        height: 84%;
         margin-left: 4px;
         margin-right: 0px;
         margin-top: 0px;
@@ -554,8 +573,8 @@ footer {
     }
 
     .prototype-3 {
-        /* width: 87%;
-        height: 87%; */
+        width: 88%;
+        height: 88%;
         margin-left: 12px;
         margin-right: 0px;
         margin-top: 0px;
@@ -594,7 +613,7 @@ footer {
         flex-grow: 3;
         margin-top: 0px;
         margin-left: 0px;
-        width: 50%;
+        width: 100%;
         justify-content: center;
         align-items: center;
     }
@@ -609,6 +628,8 @@ footer {
 
     .interested-message {
         display: flex;
+        flex-direction: column;
+        justify-content: center;
         margin-top: 0px;
         margin-left: 5px;
     }
@@ -626,7 +647,7 @@ footer {
 
     .inquiry-forms-container {
         display: flex;
-        border: 1px solid #315d9d;
+        border: 1px solid #191f53;
         width: 100%;
         flex-grow: 3;
         flex-shrink: 3;
@@ -754,7 +775,7 @@ footer {
         color: rgba(22,22,29,.8);
         overflow-x: hidden;
         margin-left: 0px;
-        background-image: linear-gradient(#191f53, #325f9f);;
+        background-image: linear-gradient(#191f53, #325f9f);
     }
 
   }
