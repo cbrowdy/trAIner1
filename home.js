@@ -72,7 +72,7 @@ $(document).ready(function() {
         patient.style.color="#315d9d";
         patient.style.borderColor="#315d9d";
         
-        message.innerHTML = "Interested in learning more about our future milestones? Schedule a meeting with us";
+        message.innerHTML = "Interested in learning more about our future milestones? Schedule a meeting with us.";
         document.getElementById("investor-form").style.display="flex";
         document.getElementById("patient-form").style.display="none";
         document.getElementById("doctor-form").style.display="none";

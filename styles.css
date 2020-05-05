@@ -188,7 +188,7 @@ body {
     margin-left: 0px;
     font-size: 0.85em;
     letter-spacing: 0.5px;
-    background-color: #f6f6f6;
+    background-color: white;
     text-align: center;
     justify-content: space-between;
 }
@@ -219,9 +219,13 @@ body {
 
 .inquiry-container {
     display: flex;
-    flex-direction: column;
+    width: 100%;
+    /* border: 1px solid black; */
+    flex-direction: row;
+    justify-content: flex-end;
+    /* flex-direction: column;
     margin-left: 0px;
-    justify-content: space-between;
+    justify-content: flex-end; */
 }
 
 .inquiry-buttons-container {
@@ -258,31 +262,54 @@ body {
 }
 
 .inquiry-forms-container {
-    border: 1px solid #191f53;
-    width: 400px;
+    /* border: 1px solid #191f53; */
+    /* width: 400px; */
+    width: 90%;
+    /* border: 1px solid blue; */
     height: 550px;
-    margin-right: 150px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    /* align-items: flex-start; */
+    /* flex-direction: row;
+    justify-content: cr; */
+    /* align-items: stretch; */
+    /* margin-right: 150px; */
     margin-top: 70px;
     font-size: 15px;
     margin-bottom: 30px;
 }
 
-.investor-form {
+.investor-form-container {
     display: flex;
-    width: 550px;
-    flex-direction: column;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    align-items: flex-start;
+    flex-grow: 3;
+    width: 90%;
+    margin-bottom: 0px;
+}
+
+.investor-form {
+    width: 100%;
+    /* display: flex; */
+    /* width: 550px; */
+    /* flex-direction: column; */
 }
 
 .doctor-form {
     display: flex;
-    width: 550px;
+    /* width: 550px; */
     flex-direction: column;
 }
 
 .patient-form {
     display: flex;
-    width: 550px;
+    width: 100%;
     flex-direction: column;
+    justify-content: flex-end;
+    /* border: 1px solid black; */
+    /* justify-content: space-evenly; */
 }
 
 input {
@@ -298,25 +325,49 @@ input:focus {
     outline: none;
 }
 
-.form-div {
+.form-names-container {
     display: flex;
+    flex-direction: row;
+    /* border: 1px solid black; */
+    width: 100%;
+}
+
+.form-div {
+    /* display: flex;
     width: 400px;
     flex-direction: row;
     margin-left: 30px;
     margin-bottom: 15px;
-    margin-top: 25px;
+    margin-top: 25px; */
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 100%;
+    justify-content: flex-end;
+    /* border: 1px solid black; */
+    /* align-items: center; */
+    /* width: 300px; */
+    /* align-items: stretch; */
+}
+
+.email-div {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
 }
 
 .form-div-horizon {
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
-    width: 335px;
+    margin-left: 0px;
+    width: 86%;
+    /* width: 335px; */
 }
 
 .form-div-submit {
     display: flex;
-    width: 400px;
+    width: 93%;
+    /* width: 400px; */
     flex-direction: column;
     align-items: flex-end;
     justify-content: flex-end;
@@ -329,8 +380,11 @@ label {
 }
 
 .myass {
-    width: 300px;
-    margin-left: 8px;
+    /* width: 300px; */
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-left: 0px;
 }
 
 .submit-button {
@@ -424,7 +478,8 @@ a:active {
 
 footer {
     display: flex;
-    background-color: #315d9d;
+    /* background-color: #315d9d; */
+    background-color: white;
 }
 
 
@@ -601,7 +656,7 @@ footer {
         margin-left: 0px;
         font-size: 0.55em;
         letter-spacing: 0.4px;
-        background-color: #f6f6f6;
+        /* background-color: blue; */
         text-align: center;
         justify-content: space-between;
         margin-bottom: 0px;
@@ -613,6 +668,7 @@ footer {
         flex-grow: 3;
         margin-top: 0px;
         margin-left: 0px;
+        /* background-color: blue; */
         width: 100%;
         justify-content: center;
         align-items: center;
@@ -636,17 +692,20 @@ footer {
 
     .inquiry-container {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         flex-grow: 3;
         margin-left: 0px;
         width: 100%;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
         margin-bottom: 0px;
     }
 
     .inquiry-forms-container {
         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         border: 1px solid #191f53;
         width: 100%;
         flex-grow: 3;
@@ -735,6 +794,10 @@ footer {
         outline: none;
     }
 
+    /* textarea-container {
+        width: 85%;
+    } */
+
     textarea:hover {
         outline: none;
     }
@@ -745,8 +808,13 @@ footer {
 
     .investor-form-container {
         display: flex;
+        /* flex-direction: row;
+        justify-content: stretch; */
         flex-direction: column;
+        justify-content: space-evenly;
+        align-items: stretch;
         flex-grow: 3;
+        width: 100%;
         margin-bottom: 0px;
     }
 
