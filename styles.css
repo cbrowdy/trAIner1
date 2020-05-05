@@ -196,6 +196,7 @@ body {
 .options-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
     flex-grow: 3;
     margin-top: 0px;
     margin-left: 0px;
@@ -232,31 +233,31 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 100%;
+    width: 90%;
     margin-top: 30px;
     margin-left: 0px;
     align-items: center;
 }
 
 .inquiry-buttons {
-    width: 150px;
+    width: 120px;
     height: 50px;
     border: 1px solid #1F2B37;
-    font-size: 20px;
+    font-size: 18px;
     color: #1F2B37;
     background-color: #f6f6f6;
 }
 
 .inquiry-buttons:hover {
     outline: none !important;
-    background-color: #315d9d !important;
+    background-color: black !important;
     color: #f6f6f6 !important;
     border-color: #f6f6f6 !important;
 }
 
 .inquiry-buttons:focus {
     outline: none;
-    background-color: #191f53;
+    background-color: black;
     color: #f6f6f6;
     border-color: #f6f6f6;
 }
@@ -275,7 +276,7 @@ body {
     justify-content: cr; */
     /* align-items: stretch; */
     /* margin-right: 150px; */
-    margin-top: 70px;
+    margin-top: 37px;
     font-size: 15px;
     margin-bottom: 30px;
 }
@@ -291,16 +292,17 @@ body {
 }
 
 .investor-form {
+    display: flex;
     width: 100%;
-    /* display: flex; */
-    /* width: 550px; */
-    /* flex-direction: column; */
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .doctor-form {
     display: flex;
-    /* width: 550px; */
+    width: 100%;
     flex-direction: column;
+    justify-content: flex-end;
 }
 
 .patient-form {
@@ -319,10 +321,14 @@ input {
 
 input:hover {
     outline: none;
+    border-width:0.01em;
+    border-color: black;
 }
 
 input:focus {
     outline: none;
+    border-width:0.01em;
+    border-color: black;
 }
 
 .form-names-container {
@@ -360,6 +366,7 @@ input:focus {
     display: flex;
     flex-direction: column;
     margin-left: 0px;
+    margin-top: 40px;
     width: 86%;
     /* width: 335px; */
 }
@@ -369,13 +376,17 @@ input:focus {
     width: 93%;
     /* width: 400px; */
     flex-direction: column;
-    align-items: flex-end;
+    /* border: 1px solid blue; */
+    align-items: flex-start;
     justify-content: flex-end;
 }
 
 label {
-    width: 100px;
+    width: 120px;
+    font-family: arial !important;
     display: flex;
+    font-weight: 700;
+    font-size: 12px;
     justify-content: start;
 }
 
@@ -388,13 +399,16 @@ label {
 }
 
 .submit-button {
-    width: 90px;
+    width: 93%;
     height: 25px;
-    border: 1px solid #1F2B37;
+    border: 1px solid lightgray;
+    /* border-color: lightgray; */
+    justify-content: flex-start;
+    align-items: flex-start;
     font-size: 15px;
     color: #1F2B37;
     margin-top: 35px;
-    margin-right: 40px;
+    margin-right: 0px;
 }
 
 .submit-button:hover {
@@ -408,12 +422,20 @@ label {
     outline: none;
 }
 
+textarea {
+    border-color: lightgray;
+}
+
 textarea:hover {
     outline: none;
+    border-width:0.01em;
+    border-color: black;
 }
 
 textarea:focus {
     outline: none;
+    border-width:0.01em;
+    border-color: black;
 }
 
 .social-media-container {
