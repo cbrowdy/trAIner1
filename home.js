@@ -16,11 +16,11 @@ $(document).ready(function() {
         patient.style.color="#f6f6f6";
         patient.style.borderColor="#f6f6f6";
 
-        doctor.style.backgroundColor="#f6f6f6";
+        doctor.style.backgroundColor="white";
         doctor.style.color="black";
         doctor.style.borderColor="black";
 
-        investor.style.backgroundColor="#f6f6f6";
+        investor.style.backgroundColor="white";
         investor.style.color="black";
         investor.style.borderColor="black";
 
@@ -40,11 +40,11 @@ $(document).ready(function() {
         doctor.style.color="#f6f6f6";
         doctor.style.borderColor="#f6f6f6";
 
-        patient.style.backgroundColor="#f6f6f6";
+        patient.style.backgroundColor="white";
         patient.style.color="black";
         patient.style.borderColor="black";
 
-        investor.style.backgroundColor="#f6f6f6";
+        investor.style.backgroundColor="white";
         investor.style.color="black";
         investor.style.borderColor="black";
 
@@ -64,11 +64,11 @@ $(document).ready(function() {
         investor.style.color="#f6f6f6";
         investor.style.borderColor="#f6f6f6";
 
-        doctor.style.backgroundColor="#f6f6f6";
+        doctor.style.backgroundColor="white";
         doctor.style.color="#315d9d";
         doctor.style.borderColor="#315d9d";
 
-        patient.style.backgroundColor="#f6f6f6";
+        patient.style.backgroundColor="white";
         patient.style.color="black";
         patient.style.borderColor="black";
         
