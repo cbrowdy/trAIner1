@@ -20,7 +20,7 @@ body {
     background-color: #1F2B37;
     margin-left: 0px;
     margin-top: 0px;
-    background-image: url("http://ec2-18-221-213-107.us-east-2.compute.amazonaws.com/~owenzhang76/personal/caralyst/assets/skyFour.png");
+    background-image: url("assets/skyFour.png");
     flex-direction: column;
     justify-content: space-between;
 }

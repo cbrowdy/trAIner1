@@ -13,7 +13,7 @@ body {
     background-color: #1F2B37;
     margin-left: 0px;
     margin-top: 0px;
-    background-image: url("http://ec2-18-221-213-107.us-east-2.compute.amazonaws.com/~owenzhang76/personal/caralyst/assets/skyFour.png");
+    background-image: url("assets/skyFour.png");
     flex-direction: column;
     justify-content: space-between;
 }
@@ -67,12 +67,13 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    font-family: "Lucida Sans Unicode","Lucida Grande","sans-serif";
+    font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif";
     font-size: 1.8em;
     line-height: 1.2em;
-    color: rgba(22,22,29,.8);
+    color: rgba(22, 22, 29, .8);
     flex-flow: column nowrap;
-    background-image: linear-gradient(#191f53, #325f9f);;
+    background-image: linear-gradient(#191f53, #325f9f);
+    ;
 }
 
 .slogan-container {
@@ -121,9 +122,7 @@ body {
     font-size: 0.85em;
     letter-spacing: 0.5px;
     color: #f6f6f6;
-    /* background-color: #191f53; */
     background-image: linear-gradient(#191f53, #325f9f);
-    /* background-image: url("http://ec2-18-221-213-107.us-east-2.compute.amazonaws.com/~owenzhang76/personal/caralyst/assets/skyFour.png"); */
 }
 
 .demo-container-1 {
@@ -156,7 +155,6 @@ body {
 }
 
 .prototype-2 {
-    
     width: 360px;
     length: 700px;
     flex-shrink: 3;
@@ -215,7 +213,7 @@ body {
     margin-top: 0px;
     margin-left: 0px;
     width: 100%;
-} 
+}
 
 .interested-message-container {
     display: flex;
@@ -334,13 +332,13 @@ input {
 
 input:hover {
     outline: none;
-    border-width:0.01em;
+    border-width: 0.01em;
     border-color: black;
 }
 
 input:focus {
     outline: none;
-    border-width:0.01em;
+    border-width: 0.01em;
     border-color: black;
 }
 
@@ -431,13 +429,13 @@ textarea {
 
 textarea:hover {
     outline: none;
-    border-width:0.01em;
+    border-width: 0.01em;
     border-color: black;
 }
 
 textarea:focus {
     outline: none;
-    border-width:0.01em;
+    border-width: 0.01em;
     border-color: black;
 }
 
@@ -462,7 +460,6 @@ textarea:focus {
     justify-content: center;
 }
 
-
 .fa {
     padding: 0px;
     font-size: 20px;
@@ -472,45 +469,43 @@ textarea:focus {
     /* border-radius: 50%; */
     /* margin-right: 30px;
     margin-top: 30px; */
-  }
-  
-  .fa:hover {
-      opacity: 0.7;
-  }
-  
-  .fa-facebook {
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
     background: white;
     color: black !important;
-  }
+}
 
-
-  .fa-heart {
+.fa-heart {
     padding-right: 20px;
     /* border: 1px solid black; */
     width: 50px;
     font-size: 60px !important;
     background: #f6f6f6;
     color: black !important;
-  }
+}
 
-
-  .fa-linkedin {
+.fa-linkedin {
     background: white;
     color: black !important;
-  }
+}
 
-  .fa-instagram {
+.fa-instagram {
     background: white;
     color: black !important;
-  }  
+}
 
-  .copyright-statement {
+.copyright-statement {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.85em;
     color: gray;
     font-weight: 500;
     margin-top: 10px;
-  }
+}
 
 a:link {
     color: #f6f6f6;
@@ -539,7 +534,6 @@ footer {
     background-color: white;
 }
 
-
 @media only screen and (max-width: 1200px) {
     .inquiry-buttons-container {
         display: flex;
@@ -551,20 +545,16 @@ footer {
         margin-left: 0px;
         margin-right: 0px;
     }
-
     .inquiry-buttons {
         margin-bottom: 30px;
     }
-
     .prototype-1 {
         display: flex;
         flex-shrink: 3;
         margin-left: 0px;
         margin-right: 0px;
         margin-top: 0px;
-       
     }
-
 }
 
 @media only screen and (max-width: 800px) {
@@ -580,7 +570,6 @@ footer {
         letter-spacing: 2.8px;
         font-weight: 100;
     }
-
     .first-container {
         display: flex;
         flex-direction: column;
@@ -591,7 +580,6 @@ footer {
         font-size: 0.7em;
         letter-spacing: 0.4px;
     }
-    
     .second-container {
         display: flex;
         flex-grow: 3;
@@ -602,11 +590,8 @@ footer {
         font-size: 0.55em;
         letter-spacing: 0.4px;
         color: #f6f6f6;
-        /* background-color: #191f53; */
         background-image: linear-gradient(#191f53, #325f9f);
-        /* background-image: url("http://ec2-18-221-213-107.us-east-2.compute.amazonaws.com/~owenzhang76/personal/caralyst/assets/skyFour.png"); */
     }
-
     .demo-container-1 {
         display: flex;
         flex-direction: column-reverse;
@@ -617,13 +602,11 @@ footer {
         margin-top: 0px;
         justify-content: center;
     }
-
     .prototype-container-1 {
         display: flex;
         flex-direction: row;
         justify-content: center;
     }
-
     .prototype-1 {
         display: flex;
         width: 74%;
@@ -631,9 +614,7 @@ footer {
         margin-left: 0px;
         margin-right: 0px;
         margin-top: 0px;
-       
     }
-
     .description-1 {
         display: flex;
         text-align: start;
@@ -641,12 +622,14 @@ footer {
         margin-left: 10px;
         animation: fadein 5s;
     }
-
     @keyframes fadein {
-        from { opacity: 0; }
-        to   { opacity: 1; }
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
     }
-
     .demo-container-2 {
         display: flex;
         flex-direction: column;
@@ -657,13 +640,11 @@ footer {
         margin-top: 0px;
         justify-content: center;
     }
-
     .prototype-container-2 {
         display: flex;
         flex-direction: row;
         justify-content: center;
     }
-
     .prototype-2 {
         width: 84%;
         height: 84%;
@@ -671,14 +652,12 @@ footer {
         margin-right: 0px;
         margin-top: 0px;
     }
-
     .description-2 {
         display: flex;
         text-align: start;
         margin-top: 20px;
         margin-left: 10px;
     }
-
     .demo-container-3 {
         display: flex;
         flex-direction: column-reverse;
@@ -689,7 +668,6 @@ footer {
         margin-top: 0px;
         justify-content: center;
     }
-
     .prototype-3 {
         width: 88%;
         height: 88%;
@@ -697,20 +675,17 @@ footer {
         margin-right: 0px;
         margin-top: 0px;
     }
-
     .prototype-container-3 {
         display: flex;
         flex-direction: row;
         justify-content: center;
     }
-
     .description-3 {
         display: flex;
         text-align: start;
         margin-top: 20px;
         margin-left: 10px;
     }
-
     .third-container {
         display: flex;
         flex-direction: column;
@@ -724,7 +699,6 @@ footer {
         justify-content: space-between;
         margin-bottom: 0px;
     }
-
     .options-container {
         display: flex;
         flex-direction: column;
@@ -736,7 +710,6 @@ footer {
         justify-content: center;
         align-items: center;
     }
-
     .interested-message-container {
         display: flex;
         flex-direction: column;
@@ -744,7 +717,6 @@ footer {
         width: 100%;
         text-align: center;
     }
-
     .interested-message {
         display: flex;
         flex-direction: column;
@@ -752,7 +724,6 @@ footer {
         margin-top: 0px;
         margin-left: 5px;
     }
-
     .inquiry-container {
         display: flex;
         flex-direction: row;
@@ -763,7 +734,6 @@ footer {
         align-items: center;
         margin-bottom: 0px;
     }
-
     .inquiry-forms-container {
         display: flex;
         flex-direction: column;
@@ -779,7 +749,6 @@ footer {
         font-size: 12px;
         margin-bottom: 0px;
     }
-
     .inquiry-buttons-container {
         display: flex;
         flex-shrink: 2;
@@ -790,7 +759,6 @@ footer {
         margin-left: 0px;
         margin-right: 0px;
     }
-
     .inquiry-buttons {
         width: 70px;
         height: 23px;
@@ -799,7 +767,6 @@ footer {
         color: #1F2B37;
         background-color: #f6f6f6;
     }
-
     .form-div {
         display: flex;
         flex-direction: column;
@@ -810,7 +777,6 @@ footer {
         margin-bottom: 10px;
         margin-top: 10px;
     }
-
     .form-div-horizon {
         display: flex;
         flex-direction: column;
@@ -818,23 +784,19 @@ footer {
         width: 86%;
         margin-top: 40px;
     }
-
     textarea {
         border-color: lightgray;
     }
-
     textarea:hover {
         outline: none;
-        border-width:0.01em;
+        border-width: 0.01em;
         border-color: black;
     }
-
     textarea:focus {
         outline: none;
-        border-width:0.01em;
+        border-width: 0.01em;
         border-color: black;
     }
-
     .form-div-submit {
         display: flex;
         width: 400px;
@@ -842,24 +804,20 @@ footer {
         align-items: flex-end;
         justify-content: flex-end;
     }
-
     .form-names-container {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
-
     label {
         width: 100px;
         display: flex;
         justify-content: start;
     }
-
     .myass {
         width: 90%;
         margin-left: 8px;
     }
-
     .submit-button {
         width: 90px;
         height: 25px;
@@ -870,30 +828,24 @@ footer {
         margin-right: 40px;
         margin-bottom: 15px;
     }
-
     .submit-button:hover {
         outline: none;
         background-color: #1F2B37;
         color: #f6f6f6;
         border-color: #f6f6f6;
     }
-
     .submit-button:focus {
         outline: none;
     }
-
     textarea {
         width: 100%;
     }
-
     textarea:hover {
         outline: none;
     }
-
     textarea:focus {
         outline: none;
     }
-
     .investor-form-container {
         display: flex;
         flex-direction: row;
@@ -902,13 +854,11 @@ footer {
         width: 90%;
         margin-bottom: 0px;
     }
-
     .doctor-form {
         display: flex;
         flex-direction: column;
         flex-grow: 3;
     }
-
     body {
         width: 100%;
         overflow-x: hidden;
@@ -917,37 +867,32 @@ footer {
         margin-left: 0px;
         margin-right: 0px;
     }
-
     .actual-body-container {
         display: flex;
         flex-direction: column;
         width: 100%;
-        font-family: "Lucida Sans Unicode","Lucida Grande","sans-serif";
+        font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif";
         font-size: 1.8em;
         line-height: 1.2em;
-        color: rgba(22,22,29,.8);
+        color: rgba(22, 22, 29, .8);
         overflow-x: hidden;
         overflow-y: hidden;
         margin-left: 0px;
         background-image: linear-gradient(#191f53, #325f9f);
     }
-
     input:hover {
         outline: auto;
-        border-width:0.01em;
+        border-width: 0.01em;
         border-color: black;
     }
-
     input {
         width: 85%;
     }
-
     input:focus {
         outline: none;
-        border-width:0.01em;
+        border-width: 0.01em;
         border-color: black;
     }
-
     .form-div-submit {
         display: flex;
         width: 100%;
@@ -955,5 +900,4 @@ footer {
         align-items: flex-end;
         justify-content: flex-end;
     }
-
-  }
+}
