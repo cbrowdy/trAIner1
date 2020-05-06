@@ -83,7 +83,8 @@
             <div class="inquiry-container">
                 <div class="inquiry-forms-container">
                     <div class="investor-form-container">
-                        <form class="investor-form" id="investor-form" action="">
+
+                        <form class="investor-form" id="investor-form" data-netlify="true" action="">
                             <div class="form-names-container">
                                 <div class="form-div">
                                    <label>FIRST NAME:</label>
@@ -107,7 +108,7 @@
                                 <textarea name="message" id="input-text-area" cols="30" rows="10"></textarea>
                             </div>
                             <div class="form-div-submit">
-                                <button class="submit-button">SUBMIT</button>
+                                <button class="submit-button" type="submit">SUBMIT</button>
                             </div>
                         </form>
 
@@ -115,16 +116,16 @@
                             <div class="form-names-container">
                                 <div class="form-div">
                                     <label>FIRST NAME:</label>
-                                    <input type="text" id="input-firstname" required>
+                                    <input name="patient-firstname" type="text" id="input-firstname" required>
                                 </div>
                                 <div class="form-div">
                                     <label>LAST NAME:</label>
-                                    <input type="text" id="input-lastname" required>
+                                    <input name="patient-lastname" type="text" id="input-lastname" required>
                                 </div>
                             </div>
                             <div class="form-div">
                                 <label>EMAIL:</label>
-                                <input class="email-div" type="text" id="input-firstname" required>
+                                <input name="patient-email" class="email-div" type="text" id="input-firstname" required>
                             </div>
                             <div class="form-div-horizon">
                                 <label class="myass">ANYTHING ELSE?</label>
@@ -135,7 +136,7 @@
                             </div>
                         </form>
 
-                        <form class="doctor-form" id="doctor-form" action="">
+                        <form class="doctor-form" id="doctor-form" data-netlify="true" action="">
                             <div class="form-names-container">
                                 <div class="form-div">
                                     <label>FIRST NAME:</label>
@@ -159,7 +160,7 @@
                                 <textarea name="message" id="input-text-area" cols="30" rows="10"></textarea>
                             </div>
                             <div class="form-div-submit">
-                                <button class="submit-button">SUBMIT</button>
+                                <button class="submit-button" type="submit">SUBMIT</button>
                             </div>
                         </form>
                     </div>
