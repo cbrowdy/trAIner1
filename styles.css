@@ -24,6 +24,20 @@ body {
     justify-content: space-between;
 }
 
+.smaller-slogan {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-shrink: 2;
+    color: #f6f6f6;
+    align-items: center;
+    margin-top: 35px;
+    font-size: 20px;
+    font-family: arial !important;
+    letter-spacing: 1.5px;
+    font-weight: 100;
+}
+
 .logo-container {
     display: flex;
 }
@@ -74,7 +88,7 @@ body {
     text-align: center;
     color: #f6f6f6;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 35px;
     font-size: 35px;
     font-family: arial !important;
     letter-spacing: 3px;
@@ -93,8 +107,8 @@ body {
 }
 
 .text-center {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
     margin-top: 50px;
 }
 
@@ -448,6 +462,7 @@ textarea:focus {
     justify-content: center;
 }
 
+
 .fa {
     padding: 0px;
     font-size: 20px;
@@ -467,6 +482,17 @@ textarea:focus {
     background: white;
     color: black !important;
   }
+
+
+  .fa-heart {
+    padding-right: 20px;
+    /* border: 1px solid black; */
+    width: 50px;
+    font-size: 60px !important;
+    background: #f6f6f6;
+    color: black !important;
+  }
+
 
   .fa-linkedin {
     background: white;
@@ -613,6 +639,12 @@ footer {
         text-align: start;
         margin-top: 20px;
         margin-left: 10px;
+        animation: fadein 5s;
+    }
+
+    @keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
     }
 
     .demo-container-2 {

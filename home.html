@@ -26,12 +26,14 @@
         </div>
         <div class="slogan-container">
             <div class="slogan">WELCOME TO THE FUTURE OF PRIMARY HEALTHCARE.</div>
+            <div class="smaller-slogan">A simple, patient-centered way to find a doctor who works for you.</div>
         </div>
     </div>
     <div class="actual-body-container">
         <div class="first-container">
-            <div class="text-center">The Caralyst platform offers personally curated physicians for you to choose your next primary healthcare provider – all at the touch of your fingertips.</div>
-            <div class="text-center">Our next gen machine learning algorithm factors in a plethora of identity, communication, and scenario based questions and characteristics to allow a perfect match with our doctors.</div>
+            <!-- <div class="fa fa-heart"></div> -->
+            <div class="text-center">The Caralyst platform offers a personalized and curated selection of physicians to help you find the right healthcare provider – all at the touch of your fingertips.</div>
+            <div class="text-center">Our innovative machine learning algorithm asks you questions to better understand your identity, communication style, and personal characteristics and allow a perfect match with our doctors.</div>
             <div class="text-center">You'll have doctors who understand you. Doctors who respect you. Doctors who you can trust.</div>
             <div class="text-center">Because when you choose us, you'll no longer be seen as a list of symptoms. You are a human being, and you will be treated like one.</div>
             <div class="text-center">. . .</div>
@@ -42,12 +44,12 @@
                     <img class="prototype-1" src="assets/identity.png" alt="">
                 </div>
                 <div class="description-1">
-                    Identity means a lot to us and it contributes to how we select a right fit for your doctor. We guarantee anonymity so your data is safe with us. So you are probably wondering what exactly do we mean by 'scenario based questions'. We ask these type of questions to gauge what type of doctor would work better with you, therefore fostering that sense of trust from the very start.
+                    The identities we share can define who we are and impact every aspect of our lives. Your personal characteristics play a large role in how we find you a doctor that is the right fit. Our product pairs this information with scenario-based questions to gauge which physicians you would have the strongest relationship with, helping you establish a sense of trust even before your first appointment. Our anonymity guarantee ensures that your data is safe with us. 
                 </div>
             </div>
             <div class="demo-container-2">
                 <div class="description-2">
-                    After completing the questions, including your own personality, communication styles, and what you want in a doctor, you will be able to swipe through the list of doctors that we have matched you to. For each doctor, you will be able to see why we thought they were a good match, common things between you, and more about the doctor.
+                    After learning more about you and your needs through our series of questions, you will be matched with a curated selection of doctors. For each doctor, you will see why we believe they would be a good match, alongside a detailed physician profile. 
                 </div>
                 <div class="prototype-container-2">
                     <img class="prototype-2" src="assets/doctor.png" alt="">
@@ -58,7 +60,8 @@
                     <img class="prototype-3" src="assets/review.png" alt="">
                 </div>
                 <div class="description-3">
-                    After a successful appointment with your new PCP, you may choose to review your appointment. This review is solely focused on making further matches for you and other people using the platform better. Every review is internal, therefore no doctors will get their reputation harmed and everyone can be safe from the superficial star-based review system that has plagued institutions for so long.
+                    Following a visit with the provider of your choice, you will have the opportunity to review your patient experience. Your feedback will help us improve our matching algorithm and improve the service for future patients. The feedback forms are tailored to your needs– providing information to us on care issues that are important to you.
+                    The details of the review remain private, sparing the doctor’s reputation but allowing them to better understand their style of care. Patients can help us create a more granular, organized platform for physician reviews instead of the current one-dimensional five-star review system. 
                 </div>
             </div>
         </div>
@@ -106,7 +109,7 @@
                             </div>
                         </form>
 
-                        <form class="patient-form" id="patient-form" action="">
+                        <form class="patient-form" id="patient-form" data-netlify="true" method="POST">
                             <div class="form-names-container">
                                 <div class="form-div">
                                     <label>FIRST NAME:</label>
@@ -126,7 +129,7 @@
                                 <textarea name="message" id="input-text-area" cols="30" rows="10"></textarea>
                             </div>
                             <div class="form-div-submit">
-                                <button class="submit-button">SUBMIT</button>
+                                <button class="submit-button" type="submit">SUBMIT</button>
                             </div>
                         </form>
 
@@ -171,7 +174,7 @@
             <a href="#" class="fa fa-instagram"></a>
             <a href="https://www.linkedin.com/company/caralyst/about/" class="fa fa-linkedin"></a>
         </div>
-        <div class="copyright-statement">&copy; 2020 | Caralyst LLC</div>
+        <div class="copyright-statement">Caralyst &copy; 2020</div>
     </div>
 </footer>
 </html>
