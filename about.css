@@ -328,9 +328,10 @@ img {
     flex-direction: column;
     align-items: center;
     flex-shrink: 3;
+    flex-grow: 3;
     width: 70%;
     /* border: 1px solid black; */
-    height: 300px;
+    /* height: 300px;f */
     /* width: 60%; */
   }
 
